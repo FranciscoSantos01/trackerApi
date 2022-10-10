@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(./images/pattern-bg.png);
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: white;
+}
+.search{
+    margin-bottom: 20px;
+}
+.search input{
+    width: 300px;
+    padding: 15px 14px;
+    border-radius: 10px;
+    border: none;
+}
+.search button{
+    background-color: black;
+    padding: 12px 14px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.result{
+    position: absolute;
+    top: 40%;
+    width: 700px;
+    padding: 25px;
+    border-radius: 14px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+
+#map { height: 320px; z-index: 0; }
+#mapid { height: 320px; z-index: 0; display: none; }
